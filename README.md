@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # nuxt-course
 
 > Nuxt.js course for Udemy
@@ -20,3 +21,7 @@ $ yarn run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+=======
+# pages-views-assignment-problem
+test project pages views assignment problem
+>>>>>>> 5f49ae37f184ba5edd3425da58e626af98fae2cd
