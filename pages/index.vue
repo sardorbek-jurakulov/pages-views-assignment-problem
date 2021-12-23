@@ -6,6 +6,7 @@
       <li>Add two links to the /products page. The links should go to /products/1 and /products/2</li>
       <li>Output the product id on the /products/:pid page</li>
     </ol>
+    <nuxt-link to="/products" class="link-buttons">Products</nuxt-link>
   </section>
 </template>
 
@@ -24,12 +25,13 @@ export default {
 {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.title
-{
+
+.title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
@@ -37,6 +39,7 @@ export default {
   color: #35495e;
   letter-spacing: 1px;
 }
+
 .subtitle
 {
   font-weight: 300;
@@ -45,8 +48,22 @@ export default {
   word-spacing: 5px;
   padding-bottom: 15px;
 }
+
 .links
 {
   padding-top: 15px;
+}
+
+.link-buttons {
+  display: inline-block;
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #666;
+  text-decoration: none;
+  cursor: pointer;
 }
 </style>
